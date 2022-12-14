@@ -1,11 +1,10 @@
-//Components
-import NavBar from "./components/NavBar";
-//Main Style Sheet
 import "./App.css";
+import ComputerScreen from "./components/jsx/ComputerScreen";
+
 function App() {
   return (
-    <div className="app">
-      <NavBar />
+    <div>
+      <ComputerScreen />
     </div>
   );
 }

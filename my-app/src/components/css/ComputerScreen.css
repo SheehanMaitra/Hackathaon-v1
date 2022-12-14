@@ -1,0 +1,66 @@
+body {
+  background: lightblue;
+  overflow-y: hidden;
+}
+article {
+  padding: 4em;
+  margin-left: 14vw;
+}
+img {
+  width: 1500px;
+}
+.monitor {
+  width: 1230px;
+  height: 716.5px;
+  overflow: hidden;
+  border: solid 1em #333;
+  border-radius: 0.5em;
+}
+
+.stand:before {
+  content: "";
+  display: block;
+  position: relative;
+  background: #222;
+  width: 450px;
+  height: 100px;
+  top: 840px;
+  left: 386px;
+  z-index: -1;
+}
+.stand:after {
+  content: "";
+  display: block;
+  position: relative;
+  background: #333;
+  border-top-left-radius: 0.5em;
+  border-top-right-radius: 0.5em;
+  width: 800px;
+  height: 30px;
+  top: 88px;
+  left: 210px;
+}
+.desk:before {
+  margin-top: 8px;
+  content: "";
+  display: block;
+  position: relative;
+  background-color: rgb(197, 141, 141);
+  width: 100%;
+  height: 50px;
+  z-index: -1;
+}
+.desk:after {
+  content: "";
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 20px;
+  background-color: rgb(75, 28, 28);
+}
+
+.window {
+  height: 1000px;
+  width: 2000px;
+  background: #000;
+}
